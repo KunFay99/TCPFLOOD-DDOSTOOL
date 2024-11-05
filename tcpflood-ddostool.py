@@ -78,7 +78,7 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[\033[97m+\033[92m]\033[92mMengirim-packet: " +str(u)+ " \033[93mMematuk-Mangsa " +str()+ " \033[1m") +ip+ "\033[0m" )
+        print("\033[92m[\033[97m+\033[92m]\033[92mMENGIRIM PAKET: " +str(u)+ " \033[93mMEMATUK-MANGSA " +str()+ " \033[1m") +ip+ "\033[0m" )
     except:
       s.close()
       print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
