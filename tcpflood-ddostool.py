@@ -12,6 +12,9 @@ class bcolors:
     OKCYAN = '\033[96m'
     OKGREEN = '\033[92m'
     WARNING = '\033[93m'
+    ZA1 = '\033[31m'
+    ZA2 = '\033[32m'
+    ZA3 = '\033[33m'
     FAIL = '\033[91m'
     RESET = '\033[0m'
     BOLD = '\033[1m'
@@ -75,7 +78,7 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[\033[97m+\033[92m]\033[92mMengirim-packet: " +str(u)+ " \033[93mMematuk-Mangsa " +str(u)+ " \033[1m" +ip+ "\033[0m" )
+        print("\033[92m[\033[97m+\033[92m]\033[92mMengirim-packet: " +str(u)+ " \033[93mMematuk-Mangsa " +str(u)+ " \033[4m" +ip+ "\033[0m" )
     except:
       s.close()
       print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
